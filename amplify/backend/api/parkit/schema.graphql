@@ -1,0 +1,36 @@
+type Mall @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  serialNo: String
+  parkingSpaces: String
+}
+
+type ParkingBill @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  amt: String
+}
+
+type Blocks @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  totalfree: String
+  mallID: String
+}
+
+enum ParkingStatus {
+  PARKED
+  EXITED
+}
+
+type Parking @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  customerName: String
+  toa: String
+  tod: String
+  status: ParkingStatus
+  mallName: String
+  parkZone: String
+  parkNo: String
+}
+ 

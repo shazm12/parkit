@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-parkit-staging-121522-authRole",
+      "UnauthRoleArn": "arn:aws:iam::485192977252:role/amplify-parkit-staging-121522-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::485192977252:role/amplify-parkit-staging-121522-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-parkit-staging-121522-deployment",
+      "UnauthRoleName": "amplify-parkit-staging-121522-unauthRole",
+      "StackName": "amplify-parkit-staging-121522",
+      "StackId": "arn:aws:cloudformation:us-east-1:485192977252:stack/amplify-parkit-staging-121522/00b7ce70-6d84-11ed-8652-0a65dd233c97",
+      "AmplifyAppId": "d2k5e1y8irh54j"
+    },
+    "categories": {
+      "auth": {
+        "parkit21890c2c": {}
+      },
+      "function": {
+        "parkit8a7fb0e8CustomMessage": {
+          "deploymentBucketName": "amplify-parkit-staging-121522-deployment",
+          "s3Key": "amplify-builds/parkit8a7fb0e8CustomMessage-494d316a7549366d546d-build.zip"
+        }
+      }
+    }
+  }
+}
